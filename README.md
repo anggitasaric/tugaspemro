@@ -61,16 +61,31 @@ TUGAS HTML
         <body> 
             <h1>Form Pendaftaran Mahasiswa Institut Teknologi Dan Bisnis Sabda Setia</h1>
             <label>Nama: <input type="text" /></label><br />
-            <label>Tempat, Tanggal Lahir: <input type="text" /></label><br />
-            <label>Jenis Kelamin: <input type="text" /></label><br />
-            <label>Alamat: <input type="text" /></label><br />
-            <label>Email: <input type="text" /></label><br />
-            <label>Jurusan: <input type="text" /></label><br />
-            <label>Asal Sekolah: <input type="text" /></label><br />
-            <label>Jurusan Asal: <input type="text" /></label><br />
-            
-        </body>
-    </head>
+          <label>Tempat, Tanggal Lahir: <input type="text" /></label><br />
+              
+              <label> Jenis Kelamin:
+          <label class="container">Laki-laki
+          <input type="checkbox"
+          <span class="checkmark"></span>
+          </label>
+          <label class="container">Perempuan
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span></label><br/>
+          <body>
+            <label> Alamat: <input type="text" /></label><br/>
+            <label> Prodi: /* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}/></label><br/>
   </section>
   <footer>
     <p>© 2025 oleh Angita </p>
