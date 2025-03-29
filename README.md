@@ -90,7 +90,7 @@
         <label for="Kewirausahaan">Kewirausahaan</label>
         <input type="checkbox" id="Sistem & Teknologi Informasi" name="Prodi Pilihan" value="Sistem & Teknologi Informasi">
         <label for="Sistem & Teknologi Informasi">Sistem & Teknologi Informasi</label><br><br>
-        <label for="alamat">Alamat:</label>
+        <label for="alamat">Alamat:</label><br><br>
         <textarea id="alamat" name="alamat" rows="4"></textarea><br><br>
           <label for="Nama Ayah">Nama Ayah :</label><br>
           <input type="text" id="nama ayah" name="nama ayah" required<br><br>
